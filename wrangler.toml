@@ -8,5 +8,5 @@ main = "index.js"
 [placement]
 mode = "smart"
 
-[observability.logs]
+[observability]
 enabled = true

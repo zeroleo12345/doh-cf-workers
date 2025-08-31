@@ -23,6 +23,7 @@ async function handleRequest(request) {
     
     //Check path
     if (!pathname.startsWith(path)) {
+        console.error("unknow path");
         return r404;
     }
     if (method == 'GET' && searchParams.has('dns')) {
